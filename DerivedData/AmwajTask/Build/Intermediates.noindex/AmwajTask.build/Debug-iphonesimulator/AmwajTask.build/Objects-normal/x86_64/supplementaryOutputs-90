@@ -1,0 +1,35 @@
+"/Users/ibrahimogedami/Documents/AmwajTask/AmwajTask/Scene/SearchLocation/View/Cell/LocationTableViewCell.swift":
+  object: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/AmwajTask.build/Debug-iphonesimulator/AmwajTask.build/Objects-normal/x86_64/LocationTableViewCell.o"
+  diagnostics: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/AmwajTask.build/Debug-iphonesimulator/AmwajTask.build/Objects-normal/x86_64/LocationTableViewCell.dia"
+  swift-dependencies: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/AmwajTask.build/Debug-iphonesimulator/AmwajTask.build/Objects-normal/x86_64/LocationTableViewCell.swiftdeps"
+  dependencies: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/AmwajTask.build/Debug-iphonesimulator/AmwajTask.build/Objects-normal/x86_64/LocationTableViewCell.d"
+"/Users/ibrahimogedami/Documents/AmwajTask/AmwajTask/Extensions/LocationMaster.swift":
+  object: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/AmwajTask.build/Debug-iphonesimulator/AmwajTask.build/Objects-normal/x86_64/LocationMaster.o"
+  dependencies: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/AmwajTask.build/Debug-iphonesimulator/AmwajTask.build/Objects-normal/x86_64/LocationMaster.d"
+  swift-dependencies: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/AmwajTask.build/Debug-iphonesimulator/AmwajTask.build/Objects-normal/x86_64/LocationMaster.swiftdeps"
+  diagnostics: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/AmwajTask.build/Debug-iphonesimulator/AmwajTask.build/Objects-normal/x86_64/LocationMaster.dia"
+"/Users/ibrahimogedami/Documents/AmwajTask/AmwajTask/Extensions/Base/BaseViewProtocol.swift":
+  swift-dependencies: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/AmwajTask.build/Debug-iphonesimulator/AmwajTask.build/Objects-normal/x86_64/BaseViewProtocol.swiftdeps"
+  diagnostics: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/AmwajTask.build/Debug-iphonesimulator/AmwajTask.build/Objects-normal/x86_64/BaseViewProtocol.dia"
+  object: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/AmwajTask.build/Debug-iphonesimulator/AmwajTask.build/Objects-normal/x86_64/BaseViewProtocol.o"
+  dependencies: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/AmwajTask.build/Debug-iphonesimulator/AmwajTask.build/Objects-normal/x86_64/BaseViewProtocol.d"
+"/Users/ibrahimogedami/Documents/AmwajTask/AmwajTask/Network/RequestUrl.swift":
+  swift-dependencies: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/AmwajTask.build/Debug-iphonesimulator/AmwajTask.build/Objects-normal/x86_64/RequestUrl.swiftdeps"
+  dependencies: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/AmwajTask.build/Debug-iphonesimulator/AmwajTask.build/Objects-normal/x86_64/RequestUrl.d"
+  object: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/AmwajTask.build/Debug-iphonesimulator/AmwajTask.build/Objects-normal/x86_64/RequestUrl.o"
+  diagnostics: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/AmwajTask.build/Debug-iphonesimulator/AmwajTask.build/Objects-normal/x86_64/RequestUrl.dia"
+"/Users/ibrahimogedami/Documents/AmwajTask/AmwajTask/Extensions/Maps+.swift":
+  object: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/AmwajTask.build/Debug-iphonesimulator/AmwajTask.build/Objects-normal/x86_64/Maps+.o"
+  diagnostics: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/AmwajTask.build/Debug-iphonesimulator/AmwajTask.build/Objects-normal/x86_64/Maps+.dia"
+  dependencies: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/AmwajTask.build/Debug-iphonesimulator/AmwajTask.build/Objects-normal/x86_64/Maps+.d"
+  swift-dependencies: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/AmwajTask.build/Debug-iphonesimulator/AmwajTask.build/Objects-normal/x86_64/Maps+.swiftdeps"
+"/Users/ibrahimogedami/Documents/AmwajTask/AmwajTask/Network/RequestMethod.swift":
+  object: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/AmwajTask.build/Debug-iphonesimulator/AmwajTask.build/Objects-normal/x86_64/RequestMethod.o"
+  swift-dependencies: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/AmwajTask.build/Debug-iphonesimulator/AmwajTask.build/Objects-normal/x86_64/RequestMethod.swiftdeps"
+  dependencies: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/AmwajTask.build/Debug-iphonesimulator/AmwajTask.build/Objects-normal/x86_64/RequestMethod.d"
+  diagnostics: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/AmwajTask.build/Debug-iphonesimulator/AmwajTask.build/Objects-normal/x86_64/RequestMethod.dia"
+"/Users/ibrahimogedami/Documents/AmwajTask/AmwajTask/Extensions/Optional+.swift":
+  swift-dependencies: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/AmwajTask.build/Debug-iphonesimulator/AmwajTask.build/Objects-normal/x86_64/Optional+.swiftdeps"
+  diagnostics: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/AmwajTask.build/Debug-iphonesimulator/AmwajTask.build/Objects-normal/x86_64/Optional+.dia"
+  dependencies: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/AmwajTask.build/Debug-iphonesimulator/AmwajTask.build/Objects-normal/x86_64/Optional+.d"
+  object: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/AmwajTask.build/Debug-iphonesimulator/AmwajTask.build/Objects-normal/x86_64/Optional+.o"

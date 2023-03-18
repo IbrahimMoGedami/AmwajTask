@@ -1,0 +1,37 @@
+PODS:
+  - Alamofire (5.6.4)
+  - AlamofireEasyLogger (1.6.0):
+    - Alamofire (>= 5.0)
+  - IQKeyboardManagerSwift (6.5.11)
+  - NVActivityIndicatorView (5.1.1):
+    - NVActivityIndicatorView/Base (= 5.1.1)
+  - NVActivityIndicatorView/Base (5.1.1)
+  - SDWebImage (5.15.0):
+    - SDWebImage/Core (= 5.15.0)
+  - SDWebImage/Core (5.15.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - AlamofireEasyLogger
+  - IQKeyboardManagerSwift
+  - NVActivityIndicatorView
+  - SDWebImage
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AlamofireEasyLogger
+    - IQKeyboardManagerSwift
+    - NVActivityIndicatorView
+    - SDWebImage
+
+SPEC CHECKSUMS:
+  Alamofire: 4e95d97098eacb88856099c4fc79b526a299e48c
+  AlamofireEasyLogger: f2fd10b57d973593a79a4b61f274c6a5cb3e1333
+  IQKeyboardManagerSwift: c7955c0bdbf7b2eb29bb7daaa44e3d90f55a9a85
+  NVActivityIndicatorView: 1f6c5687f1171810aa27a3296814dc2d7dec3667
+  SDWebImage: 9bec4c5cdd9579e1f57104735ee0c37df274d593
+
+PODFILE CHECKSUM: 0e6b66d4f19cec2e2d986233adc978cec28ffe63
+
+COCOAPODS: 1.11.3
