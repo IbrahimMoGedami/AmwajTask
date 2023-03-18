@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>12C7FE3B-6DC3-41C9-8D08-EBB7933452FA</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>12C7FE3B-6DC3-41C9-8D08-EBB7933452FA.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AmwajTask project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AmwajTask</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AmwajTask</string>
+			<key>timeStartedRecording</key>
+			<real>700839202.25877404</real>
+			<key>timeStoppedRecording</key>
+			<real>700839205.92544794</real>
+			<key>title</key>
+			<string>Build AmwajTask</string>
+			<key>uniqueIdentifier</key>
+			<string>12C7FE3B-6DC3-41C9-8D08-EBB7933452FA</string>
+		</dict>
+		<key>3E6E05C6-58AE-494A-AB97-18B668C8F3DC</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>3E6E05C6-58AE-494A-AB97-18B668C8F3DC.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AmwajTask project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AmwajTask</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AmwajTask</string>
+			<key>timeStartedRecording</key>
+			<real>700838678.48945796</real>
+			<key>timeStoppedRecording</key>
+			<real>700838684.05133104</real>
+			<key>title</key>
+			<string>Build AmwajTask</string>
+			<key>uniqueIdentifier</key>
+			<string>3E6E05C6-58AE-494A-AB97-18B668C8F3DC</string>
+		</dict>
+		<key>542D6792-8086-4B98-A5D8-E381A62D147A</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>542D6792-8086-4B98-A5D8-E381A62D147A.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AmwajTask project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AmwajTask</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AmwajTask</string>
+			<key>timeStartedRecording</key>
+			<real>700839235.16041696</real>
+			<key>timeStoppedRecording</key>
+			<real>700839238.89521694</real>
+			<key>title</key>
+			<string>Build AmwajTask</string>
+			<key>uniqueIdentifier</key>
+			<string>542D6792-8086-4B98-A5D8-E381A62D147A</string>
+		</dict>
+		<key>60BC0177-8D73-47B4-82BB-CC1BBF6392E6</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>60BC0177-8D73-47B4-82BB-CC1BBF6392E6.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AmwajTask project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AmwajTask</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AmwajTask</string>
+			<key>timeStartedRecording</key>
+			<real>700839054.87064195</real>
+			<key>timeStoppedRecording</key>
+			<real>700839059.76583302</real>
+			<key>title</key>
+			<string>Build AmwajTask</string>
+			<key>uniqueIdentifier</key>
+			<string>60BC0177-8D73-47B4-82BB-CC1BBF6392E6</string>
+		</dict>
+		<key>94B3D8CD-38F2-4E08-9F62-EC357FDE48F1</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>94B3D8CD-38F2-4E08-9F62-EC357FDE48F1.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AmwajTask project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AmwajTask</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AmwajTask</string>
+			<key>timeStartedRecording</key>
+			<real>700832804.76539302</real>
+			<key>timeStoppedRecording</key>
+			<real>700832808.18245697</real>
+			<key>title</key>
+			<string>Build AmwajTask</string>
+			<key>uniqueIdentifier</key>
+			<string>94B3D8CD-38F2-4E08-9F62-EC357FDE48F1</string>
+		</dict>
+		<key>B406C415-78E1-4243-9C3A-BAFC3C1DCAB4</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>B406C415-78E1-4243-9C3A-BAFC3C1DCAB4.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AmwajTask project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AmwajTask</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AmwajTask</string>
+			<key>timeStartedRecording</key>
+			<real>700839182.99507797</real>
+			<key>timeStoppedRecording</key>
+			<real>700839186.54273701</real>
+			<key>title</key>
+			<string>Build AmwajTask</string>
+			<key>uniqueIdentifier</key>
+			<string>B406C415-78E1-4243-9C3A-BAFC3C1DCAB4</string>
+		</dict>
+		<key>B9FB6E38-E8A4-4B9E-BEE0-814A7F08F060</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>B9FB6E38-E8A4-4B9E-BEE0-814A7F08F060.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AmwajTask project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AmwajTask</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AmwajTask</string>
+			<key>timeStartedRecording</key>
+			<real>700839132.22143602</real>
+			<key>timeStoppedRecording</key>
+			<real>700839135.81957698</real>
+			<key>title</key>
+			<string>Build AmwajTask</string>
+			<key>uniqueIdentifier</key>
+			<string>B9FB6E38-E8A4-4B9E-BEE0-814A7F08F060</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

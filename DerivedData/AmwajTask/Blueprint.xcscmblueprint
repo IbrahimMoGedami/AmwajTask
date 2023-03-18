@@ -1,0 +1,23 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "B16530AE67504C97C4B21328182D939D8BBC3AEC",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "B16530AE67504C97C4B21328182D939D8BBC3AEC" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "BED2BB26-35BA-4100-B8FA-F9C7AB2CA1FE",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "B16530AE67504C97C4B21328182D939D8BBC3AEC" : "AmwajTask\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "AmwajTask",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "AmwajTask.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/IbrahimMoGedami\/AmwajTask.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B16530AE67504C97C4B21328182D939D8BBC3AEC"
+    }
+  ]
+}

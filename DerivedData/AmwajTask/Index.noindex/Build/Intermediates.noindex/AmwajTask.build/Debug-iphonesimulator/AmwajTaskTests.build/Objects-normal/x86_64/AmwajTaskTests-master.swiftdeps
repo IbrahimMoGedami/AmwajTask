@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)"
+options: "3c93e57cd9fc8ed937ec3b0764fcb71516a58d94962d1192be807c342c203868"
+build_start_time: [1679145241, 200807094]
+build_end_time: [1679145246, 421880006]
+inputs:
+  "/Users/ibrahimogedami/Documents/AmwajTask/AmwajTaskTests/AmwajTaskTests.swift": [1678788987, 137902736]

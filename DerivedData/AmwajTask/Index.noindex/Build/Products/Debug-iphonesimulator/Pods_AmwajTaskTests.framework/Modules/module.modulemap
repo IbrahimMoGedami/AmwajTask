@@ -1,0 +1,6 @@
+framework module Pods_AmwajTaskTests {
+  umbrella header "Pods-AmwajTaskTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

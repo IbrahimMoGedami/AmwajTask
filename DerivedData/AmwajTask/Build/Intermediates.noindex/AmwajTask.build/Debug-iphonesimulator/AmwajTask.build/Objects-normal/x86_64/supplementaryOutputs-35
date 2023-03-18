@@ -1,0 +1,35 @@
+"/Users/ibrahimogedami/Documents/AmwajTask/AmwajTask/Extensions/NSObject+.swift":
+  diagnostics: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/AmwajTask.build/Debug-iphonesimulator/AmwajTask.build/Objects-normal/x86_64/NSObject+.dia"
+  dependencies: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/AmwajTask.build/Debug-iphonesimulator/AmwajTask.build/Objects-normal/x86_64/NSObject+.d"
+  object: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/AmwajTask.build/Debug-iphonesimulator/AmwajTask.build/Objects-normal/x86_64/NSObject+.o"
+  swift-dependencies: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/AmwajTask.build/Debug-iphonesimulator/AmwajTask.build/Objects-normal/x86_64/NSObject+.swiftdeps"
+"/Users/ibrahimogedami/Documents/AmwajTask/AmwajTask/Network/JsonEncadable.swift":
+  dependencies: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/AmwajTask.build/Debug-iphonesimulator/AmwajTask.build/Objects-normal/x86_64/JsonEncadable.d"
+  swift-dependencies: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/AmwajTask.build/Debug-iphonesimulator/AmwajTask.build/Objects-normal/x86_64/JsonEncadable.swiftdeps"
+  object: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/AmwajTask.build/Debug-iphonesimulator/AmwajTask.build/Objects-normal/x86_64/JsonEncadable.o"
+  diagnostics: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/AmwajTask.build/Debug-iphonesimulator/AmwajTask.build/Objects-normal/x86_64/JsonEncadable.dia"
+"/Users/ibrahimogedami/Documents/AmwajTask/AmwajTask/Extensions/UICollectionView+.swift":
+  swift-dependencies: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/AmwajTask.build/Debug-iphonesimulator/AmwajTask.build/Objects-normal/x86_64/UICollectionView+.swiftdeps"
+  diagnostics: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/AmwajTask.build/Debug-iphonesimulator/AmwajTask.build/Objects-normal/x86_64/UICollectionView+.dia"
+  object: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/AmwajTask.build/Debug-iphonesimulator/AmwajTask.build/Objects-normal/x86_64/UICollectionView+.o"
+  dependencies: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/AmwajTask.build/Debug-iphonesimulator/AmwajTask.build/Objects-normal/x86_64/UICollectionView+.d"
+"/Users/ibrahimogedami/Documents/AmwajTask/AmwajTask/Network/AppRequestInterceptor.swift":
+  diagnostics: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/AmwajTask.build/Debug-iphonesimulator/AmwajTask.build/Objects-normal/x86_64/AppRequestInterceptor.dia"
+  object: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/AmwajTask.build/Debug-iphonesimulator/AmwajTask.build/Objects-normal/x86_64/AppRequestInterceptor.o"
+  dependencies: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/AmwajTask.build/Debug-iphonesimulator/AmwajTask.build/Objects-normal/x86_64/AppRequestInterceptor.d"
+  swift-dependencies: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/AmwajTask.build/Debug-iphonesimulator/AmwajTask.build/Objects-normal/x86_64/AppRequestInterceptor.swiftdeps"
+"/Users/ibrahimogedami/Documents/AmwajTask/AmwajTask/Extensions/UIViewController.swift":
+  diagnostics: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/AmwajTask.build/Debug-iphonesimulator/AmwajTask.build/Objects-normal/x86_64/UIViewController.dia"
+  object: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/AmwajTask.build/Debug-iphonesimulator/AmwajTask.build/Objects-normal/x86_64/UIViewController.o"
+  dependencies: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/AmwajTask.build/Debug-iphonesimulator/AmwajTask.build/Objects-normal/x86_64/UIViewController.d"
+  swift-dependencies: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/AmwajTask.build/Debug-iphonesimulator/AmwajTask.build/Objects-normal/x86_64/UIViewController.swiftdeps"
+"/Users/ibrahimogedami/Documents/AmwajTask/AmwajTask/Extensions/CGsize+.swift":
+  swift-dependencies: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/AmwajTask.build/Debug-iphonesimulator/AmwajTask.build/Objects-normal/x86_64/CGsize+.swiftdeps"
+  diagnostics: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/AmwajTask.build/Debug-iphonesimulator/AmwajTask.build/Objects-normal/x86_64/CGsize+.dia"
+  object: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/AmwajTask.build/Debug-iphonesimulator/AmwajTask.build/Objects-normal/x86_64/CGsize+.o"
+  dependencies: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/AmwajTask.build/Debug-iphonesimulator/AmwajTask.build/Objects-normal/x86_64/CGsize+.d"
+"/Users/ibrahimogedami/Documents/AmwajTask/AmwajTask/Extensions/Base/BaseController.swift":
+  diagnostics: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/AmwajTask.build/Debug-iphonesimulator/AmwajTask.build/Objects-normal/x86_64/BaseController.dia"
+  dependencies: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/AmwajTask.build/Debug-iphonesimulator/AmwajTask.build/Objects-normal/x86_64/BaseController.d"
+  object: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/AmwajTask.build/Debug-iphonesimulator/AmwajTask.build/Objects-normal/x86_64/BaseController.o"
+  swift-dependencies: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/AmwajTask.build/Debug-iphonesimulator/AmwajTask.build/Objects-normal/x86_64/BaseController.swiftdeps"
