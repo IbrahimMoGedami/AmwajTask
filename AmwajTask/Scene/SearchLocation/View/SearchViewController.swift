@@ -22,7 +22,6 @@ class SearchViewController: BaseController {
     private var searchResults = [MKLocalSearchCompletion]()
     
     weak var delegate: SearchPlacesViewProtocol!
-    var array = ["ddd","ddd", "ddd","ddd","ddd"]
     
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -32,6 +32,7 @@
 		257CC56F29C1D8A60018BB6D /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 257CC56E29C1D8A60018BB6D /* Colors.xcassets */; };
 		257CC57129C1DC860018BB6D /* GestureRecognizer+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257CC57029C1DC860018BB6D /* GestureRecognizer+.swift */; };
 		257CC57329C1DDC60018BB6D /* UIView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257CC57229C1DDC60018BB6D /* UIView+.swift */; };
+		257E359929C5D396006AA98C /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257E359829C5D396006AA98C /* Validator.swift */; };
 		2585E06629C517EB0073B20C /* UICollectionView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2585E06529C517EB0073B20C /* UICollectionView+.swift */; };
 		2585E06B29C5203D0073B20C /* OnStartScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2585E06929C5203D0073B20C /* OnStartScreenViewController.swift */; };
 		2585E06C29C5203D0073B20C /* OnStartScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2585E06A29C5203D0073B20C /* OnStartScreenViewController.xib */; };
@@ -128,6 +129,7 @@
 		257CC56E29C1D8A60018BB6D /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		257CC57029C1DC860018BB6D /* GestureRecognizer+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GestureRecognizer+.swift"; sourceTree = "<group>"; };
 		257CC57229C1DDC60018BB6D /* UIView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+.swift"; sourceTree = "<group>"; };
+		257E359829C5D396006AA98C /* Validator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validator.swift; sourceTree = "<group>"; };
 		2585E06529C517EB0073B20C /* UICollectionView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+.swift"; sourceTree = "<group>"; };
 		2585E06929C5203D0073B20C /* OnStartScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnStartScreenViewController.swift; sourceTree = "<group>"; };
 		2585E06A29C5203D0073B20C /* OnStartScreenViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OnStartScreenViewController.xib; sourceTree = "<group>"; };
@@ -366,6 +368,7 @@
 				2557A20029C31CE90089C8A5 /* BaseController.swift */,
 				2557A20229C31D070089C8A5 /* AlertViewHandler.swift */,
 				2557A20429C31D1E0089C8A5 /* BaseViewProtocol.swift */,
+				257E359829C5D396006AA98C /* Validator.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -842,6 +845,7 @@
 				2557A20B29C31DDE0089C8A5 /* UIColor+.swift in Sources */,
 				25EC61CC29C1B06400975225 /* WeatherModel.swift in Sources */,
 				25BAA0B929C4790600C49379 /* DetailsDataSource.swift in Sources */,
+				257E359929C5D396006AA98C /* Validator.swift in Sources */,
 				25CDC69129C2F9E5007A0CA9 /* UploadData.swift in Sources */,
 				2563D21C29C36AE0005406B9 /* WeatherDetailsViewController.swift in Sources */,
 				2585E06B29C5203D0073B20C /* OnStartScreenViewController.swift in Sources */,

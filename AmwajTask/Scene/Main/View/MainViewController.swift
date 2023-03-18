@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import MapKit
 
 class MainViewController: BaseController {
 
@@ -16,6 +17,10 @@ class MainViewController: BaseController {
     private let vm = MainViewModel()
     var data = [WeatherData]()
     var reloadedData = [WeatherViewModelData]()
+    private var searchBar =  UISearchBar()
+    private var searchCompleter = MKLocalSearchCompleter()
+    private var searchRegion = MKCoordinateRegion.init(.world)
+    private var searchResults = [MKLocalSearchCompletion]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,12 +28,75 @@ class MainViewController: BaseController {
             self.searchViewTapped()
         }; searchView.addGestureRecognizer(searchGestureRecognizer)
         setupTableView()
+        searchBar.placeholder = "Search for a city"
+        searchRegion = MKCoordinateRegion.init(.world)
+        searchCompleter.delegate = self
+        searchCompleter.region = searchRegion
+        searchBar.delegate = self
+        navigationItem.titleView = searchBar
         subscribe()
     }
 
+    func getCityList(results: [MKLocalSearchCompletion]) -> [(city: String, country: String)]{
+        
+        var searchResults: [(city: String, country: String)] = []
+        
+        for result in results {
+            
+            let titleComponents = result.title.components(separatedBy: ", ")
+            let subtitleComponents = result.subtitle.components(separatedBy: ", ")
+            
+            buildCityTypeA(titleComponents, subtitleComponents){place in
+                
+                if place.city != "" && place.country != ""{
+                    
+                    searchResults.append(place)
+                }
+            }
+            
+            buildCityTypeB(titleComponents, subtitleComponents){place in
+                
+                if place.city != "" && place.country != ""{
+                    
+                    searchResults.append(place)
+                }
+            }
+        }
+        
+        return searchResults
+    }
+    
+    func buildCityTypeA(_ title: [String],_ subtitle: [String], _ completion: @escaping ((city: String, country: String)) -> Void){
+        
+        var city: String = ""
+        var country: String = ""
+        
+        if title.count > 1 && subtitle.count >= 1 {
+            
+            city = title.first!
+            country = subtitle.count == 1 && subtitle[0] != "" ? subtitle.first! : title.last!
+        }
+        
+        completion((city, country))
+    }
+
+    func buildCityTypeB(_ title: [String],_ subtitle: [String], _ completion: @escaping ((city: String, country: String)) -> Void){
+        
+        var city: String = ""
+        var country: String = ""
+        
+        if title.count >= 1 && subtitle.count == 1 {
+            
+            city = title.first!
+            country = subtitle.last!
+        }
+        
+        completion((city, country))
+    }
+    
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        navigationController?.navigationBar.isHidden = true
+        navigationController?.navigationBar.isHidden = false
     }
 
     override func viewWillDisappear(_ animated: Bool) {
@@ -120,3 +188,23 @@ extension MainViewController: UITableViewDelegate {
         push(WeatherDetailsViewController(lat: reloadedData[indexPath.row].lat, lon: reloadedData[indexPath.row].lon, dataState: .selected))
     }
 }
+
+extension MainViewController: UISearchBarDelegate, MKLocalSearchCompleterDelegate {
+    
+    func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
+        searchCompleter.queryFragment = searchText
+    }
+    
+    func completerDidUpdateResults(_ completer: MKLocalSearchCompleter) {
+        print(self.getCityList(results: completer.results))
+//        searchResults = completer.results
+    }
+    
+    func completer(_ completer: MKLocalSearchCompleter, didFailWithError error: Error) {
+        // Error
+//        showAlertController(title: MoreStrings.failed.message, message: error.validatorErrorAssociatedMessage.localized, selfDismissing: true, time: 0.5)
+        print(error)
+    }
+}
+
+
