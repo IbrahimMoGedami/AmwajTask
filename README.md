@@ -53,10 +53,10 @@ Weather app using openweathermap api, and show 5 days weather forecast data with
     - Networking subgroup contains tests written on Network Services
 
 ### Following test cases are written:
-- Weather Service test for checking if forecast is fetched correctly.
-- Image Service test for checking if weather icon image is fetched correctly.
-- AutoCompleteViewModelTest for testing AutoCompleteViewModel to make sure view model behaves correctly.
-- Url encoding test for URLEncoder to see if urls are being configured correctly.
+    - Weather Service test for checking if forecast is fetched correctly.
+    - Image Service test for checking if weather icon image is fetched correctly.
+    - AutoCompleteViewModelTest for testing AutoCompleteViewModel to make sure  view model behaves correctly.
+    - Url encoding test for URLEncoder to see if urls are being configured  correctly.
 - **Applied Clean code**
 
 - **Applied OOP**
