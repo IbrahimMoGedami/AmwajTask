@@ -46,5 +46,10 @@ Weather app using openweathermap api, and show 5 days weather forecast data with
     - **MainActor**
     - **Async-await**
     - **Async let**
-    
+
+- **Used Unit Test**
+
+- **Applied Clean code**
+
+- **Applied OOP**
 --------------------------------------------
