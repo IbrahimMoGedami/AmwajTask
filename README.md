@@ -31,8 +31,14 @@ Weather app using openweathermap api, and show 5 days weather forecast data with
 - **Used 3rd party frameworks**
     - **Alamofire**: For APIs call
     - **SDWebImage**: Fetch images from api
-    - **SwiftLint**: For Code Structure setup
+    - **AlamofireEasyLogger**: Printing APIs response
+    - **IQKeyboardManagerSwift**: handling keyboard typing 
+    - **NVActivityIndicatorView**: Showing loader while running apis 
 
 - Used **MVVM** Design Pattern
+   And used - **Combine**: For Binding data between View && ViewModel
+<p>
+  <img src="./1_vDKyLYW7dmErE00DeBTPxg.webp", height = 450/>
+</p>
 
 --------------------------------------------
