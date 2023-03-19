@@ -59,6 +59,8 @@ class SearchViewController: BaseController {
     private func setupTableview() {
         searchCompleter.delegate = self
         searchCompleter.region = searchRegion
+        searchBar.searchTextField.textColor = .white
+//        searchBar.searchTextField.placeholderColor = .
         searchBar.delegate = self
         searchResultsTable.delegate = self
         searchResultsTable.dataSource = self

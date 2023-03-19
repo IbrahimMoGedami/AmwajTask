@@ -122,8 +122,11 @@ class MainViewController: BaseController {
 
 extension MainViewController: SearchPlacesViewProtocol{
     func didSelectRegion(locationName: String, lat: Double, lng: Double, streetName: String) {
-        let cities =
-        cityNameLabel.text = locationName
+        var cities = [String]()
+        cities.append(locationName)
+        
+        var citiesName = cities.joined(separator: ",")
+        cityNameLabel.text = citiesName
         Task {
             await vm.getWeatherData(lat: lat, lng: lng)
         }
