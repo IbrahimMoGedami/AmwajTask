@@ -299,6 +299,7 @@ SWIFT_CLASS("_TtC9AmwajTask25BindableGestureRecognizer")
 @end
 
 
+
 SWIFT_CLASS("_TtC9AmwajTask10CircleView")
 @interface CircleView : UIView
 - (void)awakeFromNib;
@@ -351,6 +352,7 @@ SWIFT_CLASS("_TtC9AmwajTask18MainViewController")
 @property (nonatomic, weak) IBOutlet UIView * _Null_unspecified searchView;
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified cityNameLabel;
 @property (nonatomic, weak) IBOutlet UITableView * _Null_unspecified tableView;
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified backgroundImageView;
 - (void)viewDidLoad;
 - (void)viewWillAppear:(BOOL)animated;
 - (void)viewWillDisappear:(BOOL)animated;
@@ -374,15 +376,6 @@ SWIFT_CLASS("_TtC9AmwajTask18MainViewController")
 - (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
 @end
 
-@class UISearchBar;
-@class MKLocalSearchCompleter;
-
-@interface MainViewController (SWIFT_EXTENSION(AmwajTask)) <MKLocalSearchCompleterDelegate, UISearchBarDelegate>
-- (void)searchBar:(UISearchBar * _Nonnull)searchBar textDidChange:(NSString * _Nonnull)searchText;
-- (void)completerDidUpdateResults:(MKLocalSearchCompleter * _Nonnull)completer;
-- (void)completer:(MKLocalSearchCompleter * _Nonnull)completer didFailWithError:(NSError * _Nonnull)error;
-@end
-
 
 
 
@@ -397,8 +390,6 @@ SWIFT_CLASS("_TtC9AmwajTask27OnStartScreenViewController")
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified privacyLabel;
 - (void)viewDidLoad;
 - (void)viewWillAppear:(BOOL)animated;
-- (void)viewWillDisappear:(BOOL)animated;
-- (void)viewDidDisappear:(BOOL)animated;
 - (void)playerItemDidReachEndWithNotification:(NSNotification * _Nonnull)notification;
 - (IBAction)nextButtonTapped:(UIButton * _Nonnull)sender;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
@@ -416,6 +407,8 @@ SWIFT_CLASS("_TtC9AmwajTask20SearchViewController")
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
 @end
 
+@class UISearchBar;
+@class MKLocalSearchCompleter;
 
 @interface SearchViewController (SWIFT_EXTENSION(AmwajTask)) <MKLocalSearchCompleterDelegate, UISearchBarDelegate>
 - (void)searchBar:(UISearchBar * _Nonnull)searchBar textDidChange:(NSString * _Nonnull)searchText;
@@ -474,11 +467,12 @@ SWIFT_CLASS("_TtC9AmwajTask32WeatherDetailsCollectionViewCell")
 - (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
 @end
 
-@class UICollectionView;
 @class UIPageControl;
+@class UICollectionView;
 
 SWIFT_CLASS("_TtC9AmwajTask28WeatherDetailsViewController")
 @interface WeatherDetailsViewController : BaseController
+@property (nonatomic, weak) IBOutlet UIPageControl * _Null_unspecified pageController;
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified cityNameLabel;
 @property (nonatomic, weak) IBOutlet UICollectionView * _Null_unspecified collectionView;
 @property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified backgroundImageView;

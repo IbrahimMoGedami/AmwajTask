@@ -1,7 +1,7 @@
 version: "Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)"
 options: "db58b43fa84d7cac2f0d9741566c53b746bba284dd63fd7720d8d638e990419b"
-build_start_time: [1679139725, 58610916]
-build_end_time: [1679139740, 287112951]
+build_start_time: [1679169928, 583564996]
+build_end_time: [1679169928, 759377956]
 inputs:
   ? "/Users/ibrahimogedami/Documents/AmwajTask/Pods/NVActivityIndicatorView/Sources/Base/Animations/NVActivityIndicatorAnimationAudioEqualizer.swift"
   : [1678907964, 176160812]

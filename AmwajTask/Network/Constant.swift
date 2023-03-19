@@ -8,7 +8,6 @@
 import Foundation
 
 struct Constants {
-    static let baseUrl = "https://api.football-data.org/v2/competitions/2021/"
     static let weatherUrl = "https://api.openweathermap.org/"
     static var apiKey = "9792211e188419e81c214029d430007c"
 }

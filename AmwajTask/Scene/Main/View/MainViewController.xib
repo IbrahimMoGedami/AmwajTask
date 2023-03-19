@@ -3,6 +3,7 @@
     <device id="retina5_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -10,6 +11,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MainViewController" customModule="AmwajTask" customModuleProvider="target">
             <connections>
+                <outlet property="backgroundImageView" destination="t3O-Fl-b8l" id="b5S-Tx-i00"/>
                 <outlet property="cityNameLabel" destination="Xm4-fR-Lh3" id="tNj-a9-828"/>
                 <outlet property="searchView" destination="GbC-AD-Bxt" id="byg-4D-cQZ"/>
                 <outlet property="tableView" destination="lsA-q8-krk" id="d6l-P3-3ya"/>
@@ -21,8 +23,8 @@
             <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cloud-download" translatesAutoresizingMaskIntoConstraints="NO" id="t3O-Fl-b8l">
-                    <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="02n-2" translatesAutoresizingMaskIntoConstraints="NO" id="t3O-Fl-b8l">
+                    <rect key="frame" x="-150" y="0.0" width="714" height="736"/>
                 </imageView>
                 <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jZ1-J6-aSn">
                     <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
@@ -33,7 +35,7 @@
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Weather" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H9J-7k-iDU">
                                     <rect key="frame" x="23.999999999999993" y="70" width="91.333333333333314" height="29"/>
                                     <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="24"/>
-                                    <nil key="textColor"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <nil key="highlightedColor"/>
                                 </label>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GbC-AD-Bxt">
@@ -74,13 +76,27 @@
                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </tableView>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nKy-Hv-hgW">
-                                    <rect key="frame" x="319" y="36" width="75" height="35"/>
+                                    <rect key="frame" x="256" y="50" width="138" height="35"/>
+                                    <color key="backgroundColor" name="#D6D6D6"/>
                                     <constraints>
-                                        <constraint firstAttribute="width" constant="75" id="6fA-2f-Mw1"/>
                                         <constraint firstAttribute="height" constant="35" id="9zN-KT-unc"/>
                                     </constraints>
                                     <state key="normal" title="Button"/>
-                                    <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                    <buttonConfiguration key="configuration" style="plain" title="Current Weather">
+                                        <fontDescription key="titleFontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="16"/>
+                                        <color key="baseForegroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </buttonConfiguration>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="viewCornerRadius">
+                                            <real key="value" value="8"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="viewBorderWidth">
+                                            <real key="value" value="1"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="color" keyPath="viewBorderColor">
+                                            <color key="value" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
                                     <connections>
                                         <action selector="getCurrentWeather:" destination="-1" eventType="touchUpInside" id="YDG-uN-OPW"/>
                                     </connections>
@@ -96,7 +112,7 @@
                                 <constraint firstItem="GbC-AD-Bxt" firstAttribute="leading" secondItem="iu6-7c-gCl" secondAttribute="leading" constant="20" id="i0x-k5-N9o"/>
                                 <constraint firstItem="H9J-7k-iDU" firstAttribute="top" secondItem="iu6-7c-gCl" secondAttribute="top" constant="70" id="k0p-cU-uLN"/>
                                 <constraint firstAttribute="trailing" secondItem="nKy-Hv-hgW" secondAttribute="trailing" constant="20" symbolic="YES" id="kDm-Qy-nyZ"/>
-                                <constraint firstItem="nKy-Hv-hgW" firstAttribute="top" secondItem="iu6-7c-gCl" secondAttribute="top" constant="36" id="lRR-Ch-9Ue"/>
+                                <constraint firstItem="nKy-Hv-hgW" firstAttribute="top" secondItem="iu6-7c-gCl" secondAttribute="top" constant="50" id="lRR-Ch-9Ue"/>
                                 <constraint firstItem="H9J-7k-iDU" firstAttribute="leading" secondItem="iu6-7c-gCl" secondAttribute="leading" constant="24" id="pwW-p8-DBF"/>
                                 <constraint firstItem="lsA-q8-krk" firstAttribute="trailing" secondItem="GbC-AD-Bxt" secondAttribute="trailing" id="sBn-Cx-3US"/>
                             </constraints>
@@ -120,19 +136,22 @@
             <constraints>
                 <constraint firstAttribute="bottom" secondItem="t3O-Fl-b8l" secondAttribute="bottom" id="9iT-4Z-hFi"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="jZ1-J6-aSn" secondAttribute="bottom" id="Enx-QN-Rc0"/>
-                <constraint firstItem="t3O-Fl-b8l" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="LqM-1d-Heh"/>
+                <constraint firstItem="t3O-Fl-b8l" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="-150" id="LqM-1d-Heh"/>
                 <constraint firstItem="jZ1-J6-aSn" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="NaM-Py-l5I"/>
-                <constraint firstItem="jZ1-J6-aSn" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="OBY-Xp-EbO"/>
+                <constraint firstItem="jZ1-J6-aSn" firstAttribute="leading" secondItem="t3O-Fl-b8l" secondAttribute="leading" constant="150" id="OBY-Xp-EbO"/>
                 <constraint firstItem="t3O-Fl-b8l" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="Pzd-im-ho9"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="t3O-Fl-b8l" secondAttribute="trailing" id="dDc-fK-8oP"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="t3O-Fl-b8l" secondAttribute="trailing" constant="-150" id="dDc-fK-8oP"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="jZ1-J6-aSn" secondAttribute="trailing" id="iSK-hv-tWW"/>
             </constraints>
             <point key="canvasLocation" x="33.333333333333336" y="19.565217391304348"/>
         </view>
     </objects>
     <resources>
-        <image name="cloud-download" width="207" height="244"/>
+        <image name="02n-2" width="590" height="332"/>
         <image name="search" width="10.333333015441895" height="10.333333015441895"/>
+        <namedColor name="#D6D6D6">
+            <color red="0.83899998664855957" green="0.83899998664855957" blue="0.83899998664855957" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

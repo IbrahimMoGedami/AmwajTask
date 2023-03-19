@@ -96,7 +96,7 @@ extension UIView {
     
     func applySketchShadow() {
         // #000000 , 2% , 0 , 3 , 16
-//        layer.applySketchShadow(color: #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1), alpha: 0.05, x: 0, y: 6, blur: 20, spread: 0)
+        layer.applySketchShadow(color: #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1), alpha: 0.05, x: 0, y: 6, blur: 20, spread: 0)
     }
     
     var parentViewController: UIViewController? {

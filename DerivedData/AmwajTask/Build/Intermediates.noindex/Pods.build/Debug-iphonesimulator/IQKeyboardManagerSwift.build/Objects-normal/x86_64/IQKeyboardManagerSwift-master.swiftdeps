@@ -1,7 +1,7 @@
 version: "Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)"
 options: "3b6f8d56e6dc199dfd56853dcdfcfead779f0cb89ab7bb9f1c2921e5dff71455"
-build_start_time: [1679139733, 75026035]
-build_end_time: [1679139740, 395539045]
+build_start_time: [1679170816, 548346996]
+build_end_time: [1679170816, 724189043]
 inputs:
   "/Users/ibrahimogedami/Documents/AmwajTask/Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/Categories/IQNSArray+Sort.swift": [1678907962, 103466987]
   ? "/Users/ibrahimogedami/Documents/AmwajTask/Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/Categories/IQUIScrollView+Additions.swift"

@@ -1,7 +1,7 @@
 version: "Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)"
 options: "dcae8cf18728ddc02622285bf30165ae26b1d7779cb99a1675f13d0de6309605"
-build_start_time: [1679139740, 571979999]
-build_end_time: [1679139745, 567322015]
+build_start_time: [1679151967, 846098899]
+build_end_time: [1679151967, 987391948]
 inputs:
   "/Users/ibrahimogedami/Documents/AmwajTask/Pods/AlamofireEasyLogger/AlamofireEasyLogger/Classes/App/FancyAppAlamofireLogger.swift": [1678907959, 988973140]
   "/Users/ibrahimogedami/Documents/AmwajTask/Pods/AlamofireEasyLogger/AlamofireEasyLogger/Classes/Core/AlamofireLogger.swift": [1678907959, 988645315]

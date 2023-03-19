@@ -9,8 +9,8 @@
 	<string>objc</string>
 	<string>AlamofireEasyLogger</string>
 	<string>UniformTypeIdentifiers</string>
-	<string>CoreData</string>
 	<string>Accelerate</string>
+	<string>CoreData</string>
 	<string>MobileCoreServices</string>
 	<string>sys</string>
 	<string>CoreImage</string>
@@ -28,10 +28,10 @@
 	<string>Foundation</string>
 	<string>mach</string>
 	<string>QuartzCore</string>
-	<string>WatchKit</string>
+	<string>os</string>
 	<string>AppKit</string>
 	<string>Alamofire</string>
-	<string>os</string>
+	<string>WatchKit</string>
 	<string>Combine</string>
 	<string>IQKeyboardManagerSwift</string>
 	<string>SystemConfiguration</string>

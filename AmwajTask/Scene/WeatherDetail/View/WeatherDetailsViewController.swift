@@ -15,6 +15,7 @@ enum CurrentOrSelectedData {
 
 class WeatherDetailsViewController: BaseController {
     
+    @IBOutlet weak var pageController: UIPageControl!
     @IBOutlet weak var cityNameLabel: UILabel!
     @IBOutlet weak var collectionView: UICollectionView!
     @IBOutlet weak var backgroundImageView: UIImageView!
@@ -24,6 +25,9 @@ class WeatherDetailsViewController: BaseController {
         let pc = UIPageControl()
         pc.currentPage = 0
         pc.translatesAutoresizingMaskIntoConstraints = false
+        pc.currentPageIndicatorTintColor = .white
+        pc.pageIndicatorTintColor = .red
+        pc.backgroundColor = .green
         return pc
     }()
     
@@ -54,6 +58,7 @@ class WeatherDetailsViewController: BaseController {
         super.viewDidLoad()
         setupCollectionView()
         subscribe()
+        
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -70,6 +75,11 @@ class WeatherDetailsViewController: BaseController {
             }
             
         }
+        
+        pageController.currentPage = 0
+        pageController.translatesAutoresizingMaskIntoConstraints = false
+        pageController.currentPageIndicatorTintColor = .white
+        pageController.pageIndicatorTintColor = .darkGray
     }
     
     func setupCollectionView() {
@@ -141,6 +151,7 @@ class WeatherDetailsViewController: BaseController {
     }
     
     func setData() {
+        pageController.numberOfPages = vm.numberOfCells
         self.backgroundImageView.image = UIImage(named: "02n-2")
         self.cityNameLabel.text = vm.getCityViewModel().name
     }
@@ -161,15 +172,15 @@ extension WeatherDetailsViewController {
     
     private func updateUI() {
         // Page Control
-        pageControl.addTarget(self, action: #selector(pageControlSelectionAction), for: [.touchUpInside, .touchCancel, .touchDragExit])
-        [pageControl].forEach {
-            view.addSubview($0) }
+        pageController.addTarget(self, action: #selector(pageControlSelectionAction), for: [.touchUpInside, .touchCancel, .touchDragExit])
+//        [pageControl].forEach {
+//            view.addSubview($0) }
+//
+//        pageControl.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor).isActive = true
+//        pageControl.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
         
-        pageControl.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor).isActive = true
-        pageControl.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
-        
-        cityNameLabel.isHidden = true
-        pageControl.isHidden = true
+//        cityNameLabel.isHidden = true
+//        pageControl.isHidden = true
         self.navigationController?.navigationBar.tintColor = .white
         self.navigationController?.navigationBar.titleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.white]
         self.backgroundImageView.addImageGradient()
@@ -231,7 +242,7 @@ extension WeatherDetailsViewController {
     
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
         let scrollPos = scrollView.contentOffset.x / view.frame.width
-        pageControl.currentPage = Int(scrollPos)
+        pageController.currentPage = Int(scrollPos)
     }
 }
 

@@ -28,6 +28,8 @@
 		2557A20D29C320050089C8A5 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2557A20C29C320050089C8A5 /* UIViewController.swift */; };
 		2563D21C29C36AE0005406B9 /* WeatherDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2563D21A29C36AE0005406B9 /* WeatherDetailsViewController.swift */; };
 		2563D21D29C36AE0005406B9 /* WeatherDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2563D21B29C36AE0005406B9 /* WeatherDetailsViewController.xib */; };
+		256D40E629C5F89E00FA3730 /* MockMainDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256D40E529C5F89E00FA3730 /* MockMainDataSource.swift */; };
+		256D40E829C5F9A300FA3730 /* MockDetailsDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256D40E729C5F9A300FA3730 /* MockDetailsDataSource.swift */; };
 		257CC56D29C1D7560018BB6D /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257CC56C29C1D7560018BB6D /* WeatherData.swift */; };
 		257CC56F29C1D8A60018BB6D /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 257CC56E29C1D8A60018BB6D /* Colors.xcassets */; };
 		257CC57129C1DC860018BB6D /* GestureRecognizer+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257CC57029C1DC860018BB6D /* GestureRecognizer+.swift */; };
@@ -44,6 +46,7 @@
 		25A52B4F29C44CB700C01316 /* Double+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A52B4E29C44CB700C01316 /* Double+.swift */; };
 		25A52B5129C44DFE00C01316 /* UIImageView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A52B5029C44DFE00C01316 /* UIImageView+.swift */; };
 		25A8638D29C3B4CA00CA999F /* WeatherDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A8638C29C3B4CA00CA999F /* WeatherDetailModel.swift */; };
+		25A9708B29C6544900D64E79 /* CALayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A9708A29C6544900D64E79 /* CALayer.swift */; };
 		25B42D1D29C080F9008970CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B42D1C29C080F9008970CC /* AppDelegate.swift */; };
 		25B42D1F29C080F9008970CC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B42D1E29C080F9008970CC /* SceneDelegate.swift */; };
 		25B42D2729C080F9008970CC /* AmwajTask.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 25B42D2529C080F9008970CC /* AmwajTask.xcdatamodeld */; };
@@ -125,6 +128,8 @@
 		2557A20C29C320050089C8A5 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
 		2563D21A29C36AE0005406B9 /* WeatherDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDetailsViewController.swift; sourceTree = "<group>"; };
 		2563D21B29C36AE0005406B9 /* WeatherDetailsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WeatherDetailsViewController.xib; sourceTree = "<group>"; };
+		256D40E529C5F89E00FA3730 /* MockMainDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockMainDataSource.swift; sourceTree = "<group>"; };
+		256D40E729C5F9A300FA3730 /* MockDetailsDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockDetailsDataSource.swift; sourceTree = "<group>"; };
 		257CC56C29C1D7560018BB6D /* WeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
 		257CC56E29C1D8A60018BB6D /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		257CC57029C1DC860018BB6D /* GestureRecognizer+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GestureRecognizer+.swift"; sourceTree = "<group>"; };
@@ -142,6 +147,7 @@
 		25A52B5029C44DFE00C01316 /* UIImageView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+.swift"; sourceTree = "<group>"; };
 		25A52B5629C4501B00C01316 /* background.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = background.mp4; sourceTree = "<group>"; };
 		25A8638C29C3B4CA00CA999F /* WeatherDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDetailModel.swift; sourceTree = "<group>"; };
+		25A9708A29C6544900D64E79 /* CALayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CALayer.swift; sourceTree = "<group>"; };
 		25B42D1929C080F9008970CC /* AmwajTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AmwajTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25B42D1C29C080F9008970CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		25B42D1E29C080F9008970CC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -296,6 +302,7 @@
 				25A52B5029C44DFE00C01316 /* UIImageView+.swift */,
 				2585E06529C517EB0073B20C /* UICollectionView+.swift */,
 				259611A029C59C540072A2FE /* Date+.swift */,
+				25A9708A29C6544900D64E79 /* CALayer.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -381,6 +388,15 @@
 				25A52B4029C444DC00C01316 /* ViewModel */,
 			);
 			path = WeatherDetail;
+			sourceTree = "<group>";
+		};
+		256D40E429C5F86300FA3730 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				256D40E529C5F89E00FA3730 /* MockMainDataSource.swift */,
+				256D40E729C5F9A300FA3730 /* MockDetailsDataSource.swift */,
+			);
+			path = Mocks;
 			sourceTree = "<group>";
 		};
 		2585E06729C5201C0073B20C /* OnStartScreen */ = {
@@ -490,6 +506,7 @@
 		25B42D3529C080FB008970CC /* AmwajTaskTests */ = {
 			isa = PBXGroup;
 			children = (
+				256D40E429C5F86300FA3730 /* Mocks */,
 				25B42D3629C080FB008970CC /* AmwajTaskTests.swift */,
 			);
 			path = AmwajTaskTests;
@@ -816,6 +833,7 @@
 				25CDC69029C2F9E5007A0CA9 /* NetworkState.swift in Sources */,
 				25CDC68B29C2F9E5007A0CA9 /* VMContainer.swift in Sources */,
 				2557A20929C31D830089C8A5 /* String+.swift in Sources */,
+				25A9708B29C6544900D64E79 /* CALayer.swift in Sources */,
 				2552926029C102BC00F3F35B /* SearchViewController.swift in Sources */,
 				2552926B29C104C500F3F35B /* UITableView+.swift in Sources */,
 				25CDC69229C2F9E5007A0CA9 /* AsyncRequest.swift in Sources */,
@@ -877,6 +895,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				25B42D3729C080FB008970CC /* AmwajTaskTests.swift in Sources */,
+				256D40E829C5F9A300FA3730 /* MockDetailsDataSource.swift in Sources */,
+				256D40E629C5F89E00FA3730 /* MockMainDataSource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

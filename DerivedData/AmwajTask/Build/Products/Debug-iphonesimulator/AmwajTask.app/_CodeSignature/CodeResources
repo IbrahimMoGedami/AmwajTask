@@ -26,7 +26,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		QsXcSWUnGmEbqLYI3/HHLKuAMlY=
+		wqk+45j2Y4MesOqnO0BHqHBfGTI=
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
@@ -126,7 +126,7 @@
 		</data>
 		<key>MainViewController.nib</key>
 		<data>
-		9hwKX9yeUQOAn415rpLY43cjFBY=
+		D7ub4C5qRw0Moklx5VHzS8Pk3TE=
 		</data>
 		<key>OnStartScreenViewController.nib</key>
 		<data>
@@ -138,7 +138,7 @@
 		</data>
 		<key>SearchViewController.nib</key>
 		<data>
-		MXP6Pffc/xfTD9AR6mRfOy5A7h8=
+		XARCMpwK1hMq7KLoxr+hnZVqFG4=
 		</data>
 		<key>WeatherDetailsCollectionViewCell.nib</key>
 		<data>
@@ -146,7 +146,7 @@
 		</data>
 		<key>WeatherDetailsViewController.nib</key>
 		<data>
-		4JHmSo7SpLAkj9n3lGaAExP8hH0=
+		7JBmQEXEh59ewIevuhmUCVskTjw=
 		</data>
 		<key>WeatherListTableViewCell.nib</key>
 		<data>
@@ -198,7 +198,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Zm/DjKoYNZ0s0Nqih8UXqB4SBIAQtNSNWZRZPyNwVVU=
+			Soc5nCr6NnboBSlCXfeQKWM3+nkjukm+Mq+bPvtn70A=
 			</data>
 		</dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
@@ -366,7 +366,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			hTMzjobmm+Q2/1nL6hsPRNnEgLXpNqPx+2BDiJPqQM4=
+			yogSCRkvmNSEtbpylRbnM49mDdoCs+/CFHYE/LToF3I=
 			</data>
 		</dict>
 		<key>OnStartScreenViewController.nib</key>
@@ -380,7 +380,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			gokEtvQrXwqc7MPs65okMPuZ6OEnxQ5zDBjk49h53ug=
+			3liN2AS16/A4Xz4vO5dWjX8HCca13ioWXuCYAhwAw0w=
 			</data>
 		</dict>
 		<key>WeatherDetailsCollectionViewCell.nib</key>
@@ -394,7 +394,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			EIb/jkabjompfbmru2zZQqMiaqFPcoFpScB9DoEqJWM=
+			vP01gbUQ3Me/qar5Um0PKQefhRgVvICVqD/KkVouX/Q=
 			</data>
 		</dict>
 		<key>WeatherListTableViewCell.nib</key>
