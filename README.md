@@ -41,4 +41,10 @@ Weather app using openweathermap api, and show 5 days weather forecast data with
   <img src="./1_vDKyLYW7dmErE00DeBTPxg.webp", height = 450/>
 </p>
 
+- **Used Modern Concurrency**
+    - **Actor**
+    - **MainActor**
+    - **Async-await**
+    - **Async let**
+    
 --------------------------------------------
