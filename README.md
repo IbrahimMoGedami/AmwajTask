@@ -36,7 +36,7 @@ Weather app using openweathermap api, and show 5 days weather forecast data with
     - **NVActivityIndicatorView**: Showing loader while running apis 
 
 - Used **MVVM** Design Pattern
-   And used - **Combine**: For Binding data between View && ViewModel
+   - And used **Combine**: For Binding data between View && ViewModel
 <p>
   <img src="./1_vDKyLYW7dmErE00DeBTPxg.webp", height = 450/>
 </p>
