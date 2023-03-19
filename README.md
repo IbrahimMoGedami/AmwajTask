@@ -29,11 +29,11 @@ Weather app using openweathermap api, and show 5 days weather forecast data with
 - Added JSON file in project for fixed data.
 
 - **Used 3rd party frameworks**
-- **Alamofire**: For APIs call
-- **SDWebImage**: Fetch images from api
-- **AlamofireEasyLogger**: Printing APIs response
-- **IQKeyboardManagerSwift**: handling keyboard typing 
-- **NVActivityIndicatorView**: Showing loader while running apis 
+    - **Alamofire**: For APIs call
+    - **SDWebImage**: Fetch images from api
+    - **AlamofireEasyLogger**: Printing APIs response
+    - **IQKeyboardManagerSwift**: handling keyboard typing 
+    - **NVActivityIndicatorView**: Showing loader while running apis 
 
 - **App Architecture**
     - Used **MVVM** Design Pattern
