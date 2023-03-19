@@ -1,0 +1,20 @@
+"/Users/ibrahimogedami/Documents/AmwajTask/Pods/Alamofire/Source/Result+Alamofire.swift":
+  swift-dependencies: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/Result+Alamofire.swiftdeps"
+  dependencies: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/Result+Alamofire.d"
+  object: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/Result+Alamofire.o"
+  diagnostics: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/Result+Alamofire.dia"
+"/Users/ibrahimogedami/Documents/AmwajTask/Pods/Alamofire/Source/RetryPolicy.swift":
+  dependencies: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/RetryPolicy.d"
+  diagnostics: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/RetryPolicy.dia"
+  object: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/RetryPolicy.o"
+  swift-dependencies: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/RetryPolicy.swiftdeps"
+"/Users/ibrahimogedami/Documents/AmwajTask/Pods/Alamofire/Source/ResponseSerialization.swift":
+  dependencies: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/ResponseSerialization.d"
+  swift-dependencies: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/ResponseSerialization.swiftdeps"
+  object: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/ResponseSerialization.o"
+  diagnostics: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/ResponseSerialization.dia"
+"/Users/ibrahimogedami/Documents/AmwajTask/Pods/Alamofire/Source/ServerTrustEvaluation.swift":
+  swift-dependencies: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/ServerTrustEvaluation.swiftdeps"
+  dependencies: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/ServerTrustEvaluation.d"
+  object: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/ServerTrustEvaluation.o"
+  diagnostics: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/ServerTrustEvaluation.dia"

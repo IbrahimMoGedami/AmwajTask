@@ -20,19 +20,6 @@ class WeatherDetailsViewController: BaseController {
     @IBOutlet weak var collectionView: UICollectionView!
     @IBOutlet weak var backgroundImageView: UIImageView!
     
-    // Bottom PageControl
-    let pageControl: UIPageControl = {
-        let pc = UIPageControl()
-        pc.currentPage = 0
-        pc.translatesAutoresizingMaskIntoConstraints = false
-        pc.currentPageIndicatorTintColor = .white
-        pc.pageIndicatorTintColor = .red
-        pc.backgroundColor = .green
-        return pc
-    }()
-    
-    
-    
     var vm = WeatherDetailsViewModel()
     var lat: Double
     var lon: Double
@@ -58,12 +45,12 @@ class WeatherDetailsViewController: BaseController {
         super.viewDidLoad()
         setupCollectionView()
         subscribe()
-        
+        updateUI()
     }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        updateUI()
+        
         locationMaster.checkAuthorizationStatus()
         
         Task {
@@ -95,12 +82,7 @@ class WeatherDetailsViewController: BaseController {
                 guard let self else {return}
                 self.handleDailyWeatherState(state)
             }.store(in: &bag)
-        
-//        vm.$currentState
-//            .sink { [weak self] state in
-//                guard let self else {return}
-//                //                self.handleCurrentState(state)
-//            }.store(in: &bag)
+  
     }
     
     private func handleDailyWeatherState(_ state: ScreenState<DailyWeatherModel>) {
@@ -110,10 +92,8 @@ class WeatherDetailsViewController: BaseController {
             startLoading()
         case .success(let value):
             self.dailyWeather = value
-            print(value)
-            cityNameLabel.isHidden = false
-            pageControl.isHidden = false
             vm.fetchedData(weatherList: value.list ?? [])
+            setData(value)
             collectionView.reloadData()
             
         case .failure(let error):
@@ -125,22 +105,6 @@ class WeatherDetailsViewController: BaseController {
         }
     }
     
-    private func handleCurrentState(_ state: ScreenState<WeatherData>) {
-        stopLoading()
-        switch state {
-        case .loading:
-            startLoading()
-        case .success(let value):
-            self.currentWeather = value
-            setData()
-        case .failure(let error):
-            showAlert(with: error, title: .error)
-        case .ideal:
-            stopLoading()
-        default:
-            break
-        }
-    }
     
     @objc func pageControlSelectionAction(_ sender: UIPageControl) {
         DispatchQueue.main.asyncAfter(deadline: .now() + 0.1, execute: {
@@ -150,16 +114,29 @@ class WeatherDetailsViewController: BaseController {
         })
     }
     
-    func setData() {
+    func setData(_ data: DailyWeatherModel) {
+        
         pageController.numberOfPages = vm.numberOfCells
-        self.backgroundImageView.image = UIImage(named: "02n-2")
-        self.cityNameLabel.text = vm.getCityViewModel().name
+       
+        switch dataState {
+        case .current:
+            LocationMaster.getAddressOfLocation(lat: currentLocation?.coordinate.latitude ?? 0.0, lng: currentLocation?.coordinate.longitude ?? 0.0, complition: { address, streetName in
+                 self.cityNameLabel.text = address
+            })
+        case .selected:
+            LocationMaster.getAddressOfLocation(lat: lat, lng: lon, complition: { address, streetName in
+                 self.cityNameLabel.text = address
+            })
+        }
+        
     }
 }
 
 extension WeatherDetailsViewController: LocationMasterDelegate {
     func locationUpdated(location: CLLocation) {
         currentLocation = location
+        print(location)
+        
         locationMaster.locationManger.stopUpdatingLocation()
     }
     
@@ -173,18 +150,10 @@ extension WeatherDetailsViewController {
     private func updateUI() {
         // Page Control
         pageController.addTarget(self, action: #selector(pageControlSelectionAction), for: [.touchUpInside, .touchCancel, .touchDragExit])
-//        [pageControl].forEach {
-//            view.addSubview($0) }
-//
-//        pageControl.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor).isActive = true
-//        pageControl.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
-        
-//        cityNameLabel.isHidden = true
-//        pageControl.isHidden = true
         self.navigationController?.navigationBar.tintColor = .white
         self.navigationController?.navigationBar.titleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.white]
         self.backgroundImageView.addImageGradient()
-        backgroundImageView.image = UIImage(named: "02n-2")
+        self.backgroundImageView.image = UIImage(named: "02n-2")
         self.backgroundImageAnimate()
     }
     

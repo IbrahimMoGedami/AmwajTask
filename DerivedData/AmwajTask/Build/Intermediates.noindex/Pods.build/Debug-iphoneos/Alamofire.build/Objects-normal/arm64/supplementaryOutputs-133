@@ -1,0 +1,20 @@
+"/Users/ibrahimogedami/Documents/AmwajTask/Pods/Alamofire/Source/RequestInterceptor.swift":
+  swift-dependencies: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/RequestInterceptor.swiftdeps"
+  object: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/RequestInterceptor.o"
+  dependencies: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/RequestInterceptor.d"
+  diagnostics: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/RequestInterceptor.dia"
+"/Users/ibrahimogedami/Documents/AmwajTask/Pods/Alamofire/Source/Response.swift":
+  dependencies: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/Response.d"
+  object: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/Response.o"
+  swift-dependencies: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/Response.swiftdeps"
+  diagnostics: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/Response.dia"
+"/Users/ibrahimogedami/Documents/AmwajTask/Pods/Alamofire/Source/RequestTaskMap.swift":
+  object: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/RequestTaskMap.o"
+  dependencies: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/RequestTaskMap.d"
+  diagnostics: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/RequestTaskMap.dia"
+  swift-dependencies: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/RequestTaskMap.swiftdeps"
+"/Users/ibrahimogedami/Documents/AmwajTask/Pods/Alamofire/Source/Request.swift":
+  diagnostics: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/Request.dia"
+  dependencies: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/Request.d"
+  object: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/Request.o"
+  swift-dependencies: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/Request.swiftdeps"

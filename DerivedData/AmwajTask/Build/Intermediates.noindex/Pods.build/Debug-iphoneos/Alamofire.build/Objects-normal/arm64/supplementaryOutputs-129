@@ -1,0 +1,25 @@
+"/Users/ibrahimogedami/Documents/AmwajTask/Pods/Alamofire/Source/Alamofire.swift":
+  swift-dependencies: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/Alamofire.swiftdeps"
+  dependencies: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/Alamofire.d"
+  diagnostics: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/Alamofire.dia"
+  object: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/Alamofire.o"
+"/Users/ibrahimogedami/Documents/AmwajTask/Pods/Alamofire/Source/AFError.swift":
+  swift-dependencies: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/AFError.swiftdeps"
+  object: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/AFError.o"
+  diagnostics: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/AFError.dia"
+  dependencies: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/AFError.d"
+"/Users/ibrahimogedami/Documents/AmwajTask/Pods/Alamofire/Source/AuthenticationInterceptor.swift":
+  swift-dependencies: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/AuthenticationInterceptor.swiftdeps"
+  diagnostics: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/AuthenticationInterceptor.dia"
+  object: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/AuthenticationInterceptor.o"
+  dependencies: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/AuthenticationInterceptor.d"
+"/Users/ibrahimogedami/Documents/AmwajTask/Pods/Alamofire/Source/CachedResponseHandler.swift":
+  dependencies: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/CachedResponseHandler.d"
+  object: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/CachedResponseHandler.o"
+  diagnostics: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/CachedResponseHandler.dia"
+  swift-dependencies: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/CachedResponseHandler.swiftdeps"
+"/Users/ibrahimogedami/Documents/AmwajTask/Pods/Alamofire/Source/AlamofireExtended.swift":
+  object: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/AlamofireExtended.o"
+  swift-dependencies: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/AlamofireExtended.swiftdeps"
+  diagnostics: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/AlamofireExtended.dia"
+  dependencies: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/AlamofireExtended.d"

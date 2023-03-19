@@ -1,0 +1,29 @@
+dependencies: \
+  /Users/ibrahimogedami/Documents/AmwajTask/Pods/SDWebImage/SDWebImage/Core/UIButton+WebCache.m \
+  /Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SDWebImage.build/module.modulemap \
+  /Users/ibrahimogedami/Documents/AmwajTask/Pods/Target\ Support\ Files/SDWebImage/SDWebImage-prefix.pch \
+  /Users/ibrahimogedami/Documents/AmwajTask/Pods/SDWebImage/SDWebImage/Core/UIButton+WebCache.h \
+  /Users/ibrahimogedami/Documents/AmwajTask/Pods/SDWebImage/SDWebImage/Core/SDWebImageCompat.h \
+  /Users/ibrahimogedami/Documents/AmwajTask/Pods/SDWebImage/SDWebImage/Core/SDWebImageManager.h \
+  /Users/ibrahimogedami/Documents/AmwajTask/Pods/SDWebImage/SDWebImage/Core/SDWebImageOperation.h \
+  /Users/ibrahimogedami/Documents/AmwajTask/Pods/SDWebImage/SDWebImage/Core/SDImageCacheDefine.h \
+  /Users/ibrahimogedami/Documents/AmwajTask/Pods/SDWebImage/SDWebImage/Core/SDWebImageDefine.h \
+  /Users/ibrahimogedami/Documents/AmwajTask/Pods/SDWebImage/SDWebImage/Core/SDImageCoder.h \
+  /Users/ibrahimogedami/Documents/AmwajTask/Pods/SDWebImage/SDWebImage/Core/NSData+ImageContentType.h \
+  /Users/ibrahimogedami/Documents/AmwajTask/Pods/SDWebImage/SDWebImage/Core/SDImageFrame.h \
+  /Users/ibrahimogedami/Documents/AmwajTask/Pods/SDWebImage/SDWebImage/Core/SDImageLoader.h \
+  /Users/ibrahimogedami/Documents/AmwajTask/Pods/SDWebImage/SDWebImage/Core/SDImageTransformer.h \
+  /Users/ibrahimogedami/Documents/AmwajTask/Pods/SDWebImage/SDWebImage/Core/UIImage+Transform.h \
+  /Users/ibrahimogedami/Documents/AmwajTask/Pods/SDWebImage/SDWebImage/Core/SDWebImageCacheKeyFilter.h \
+  /Users/ibrahimogedami/Documents/AmwajTask/Pods/SDWebImage/SDWebImage/Core/SDWebImageCacheSerializer.h \
+  /Users/ibrahimogedami/Documents/AmwajTask/Pods/SDWebImage/SDWebImage/Core/SDWebImageOptionsProcessor.h \
+  /Users/ibrahimogedami/Documents/AmwajTask/Pods/SDWebImage/SDWebImage/Core/UIView+WebCacheOperation.h \
+  /Users/ibrahimogedami/Documents/AmwajTask/Pods/SDWebImage/SDWebImage/Core/UIView+WebCache.h \
+  /Users/ibrahimogedami/Documents/AmwajTask/Pods/SDWebImage/SDWebImage/Core/SDWebImageTransition.h \
+  /Users/ibrahimogedami/Documents/AmwajTask/Pods/SDWebImage/SDWebImage/Core/SDImageCache.h \
+  /Users/ibrahimogedami/Documents/AmwajTask/Pods/SDWebImage/SDWebImage/Core/SDImageCacheConfig.h \
+  /Users/ibrahimogedami/Documents/AmwajTask/Pods/SDWebImage/SDWebImage/Core/SDMemoryCache.h \
+  /Users/ibrahimogedami/Documents/AmwajTask/Pods/SDWebImage/SDWebImage/Core/SDDiskCache.h \
+  /Users/ibrahimogedami/Documents/AmwajTask/Pods/SDWebImage/SDWebImage/Core/SDWebImageIndicator.h \
+  /Users/ibrahimogedami/Documents/AmwajTask/Pods/SDWebImage/SDWebImage/Private/SDInternalMacros.h \
+  /Users/ibrahimogedami/Documents/AmwajTask/Pods/SDWebImage/SDWebImage/Private/SDmetamacros.h

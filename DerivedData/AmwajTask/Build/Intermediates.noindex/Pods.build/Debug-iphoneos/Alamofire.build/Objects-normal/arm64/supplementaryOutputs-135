@@ -1,0 +1,20 @@
+"/Users/ibrahimogedami/Documents/AmwajTask/Pods/Alamofire/Source/Session.swift":
+  diagnostics: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/Session.dia"
+  swift-dependencies: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/Session.swiftdeps"
+  dependencies: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/Session.d"
+  object: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/Session.o"
+"/Users/ibrahimogedami/Documents/AmwajTask/Pods/Alamofire/Source/StringEncoding+Alamofire.swift":
+  swift-dependencies: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/StringEncoding+Alamofire.swiftdeps"
+  diagnostics: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/StringEncoding+Alamofire.dia"
+  dependencies: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/StringEncoding+Alamofire.d"
+  object: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/StringEncoding+Alamofire.o"
+"/Users/ibrahimogedami/Documents/AmwajTask/Pods/Alamofire/Source/URLConvertible+URLRequestConvertible.swift":
+  swift-dependencies: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/URLConvertible+URLRequestConvertible.swiftdeps"
+  diagnostics: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/URLConvertible+URLRequestConvertible.dia"
+  object: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/URLConvertible+URLRequestConvertible.o"
+  dependencies: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/URLConvertible+URLRequestConvertible.d"
+"/Users/ibrahimogedami/Documents/AmwajTask/Pods/Alamofire/Source/SessionDelegate.swift":
+  object: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/SessionDelegate.o"
+  diagnostics: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/SessionDelegate.dia"
+  swift-dependencies: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/SessionDelegate.swiftdeps"
+  dependencies: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/Objects-normal/arm64/SessionDelegate.d"

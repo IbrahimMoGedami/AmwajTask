@@ -1,0 +1,20 @@
+"/Users/ibrahimogedami/Documents/AmwajTask/Pods/NVActivityIndicatorView/Sources/Base/NVActivityIndicatorView.swift":
+  dependencies: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/NVActivityIndicatorView.build/Objects-normal/arm64/NVActivityIndicatorView.d"
+  diagnostics: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/NVActivityIndicatorView.build/Objects-normal/arm64/NVActivityIndicatorView.dia"
+  swift-dependencies: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/NVActivityIndicatorView.build/Objects-normal/arm64/NVActivityIndicatorView.swiftdeps"
+  object: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/NVActivityIndicatorView.build/Objects-normal/arm64/NVActivityIndicatorView.o"
+"/Users/ibrahimogedami/Documents/AmwajTask/Pods/NVActivityIndicatorView/Sources/Base/NVActivityIndicatorShape.swift":
+  object: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/NVActivityIndicatorView.build/Objects-normal/arm64/NVActivityIndicatorShape.o"
+  dependencies: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/NVActivityIndicatorView.build/Objects-normal/arm64/NVActivityIndicatorShape.d"
+  swift-dependencies: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/NVActivityIndicatorView.build/Objects-normal/arm64/NVActivityIndicatorShape.swiftdeps"
+  diagnostics: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/NVActivityIndicatorView.build/Objects-normal/arm64/NVActivityIndicatorShape.dia"
+"/Users/ibrahimogedami/Documents/AmwajTask/Pods/NVActivityIndicatorView/Sources/Base/Animations/NVActivityIndicatorAnimationSquareSpin.swift":
+  swift-dependencies: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/NVActivityIndicatorView.build/Objects-normal/arm64/NVActivityIndicatorAnimationSquareSpin.swiftdeps"
+  dependencies: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/NVActivityIndicatorView.build/Objects-normal/arm64/NVActivityIndicatorAnimationSquareSpin.d"
+  object: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/NVActivityIndicatorView.build/Objects-normal/arm64/NVActivityIndicatorAnimationSquareSpin.o"
+  diagnostics: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/NVActivityIndicatorView.build/Objects-normal/arm64/NVActivityIndicatorAnimationSquareSpin.dia"
+"/Users/ibrahimogedami/Documents/AmwajTask/Pods/NVActivityIndicatorView/Sources/Base/Animations/NVActivityIndicatorAnimationTriangleSkewSpin.swift":
+  dependencies: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/NVActivityIndicatorView.build/Objects-normal/arm64/NVActivityIndicatorAnimationTriangleSkewSpin.d"
+  diagnostics: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/NVActivityIndicatorView.build/Objects-normal/arm64/NVActivityIndicatorAnimationTriangleSkewSpin.dia"
+  swift-dependencies: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/NVActivityIndicatorView.build/Objects-normal/arm64/NVActivityIndicatorAnimationTriangleSkewSpin.swiftdeps"
+  object: "/Users/ibrahimogedami/Documents/AmwajTask/DerivedData/AmwajTask/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/NVActivityIndicatorView.build/Objects-normal/arm64/NVActivityIndicatorAnimationTriangleSkewSpin.o"
