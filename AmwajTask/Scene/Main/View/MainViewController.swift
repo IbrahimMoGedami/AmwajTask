@@ -17,6 +17,7 @@ class MainViewController: BaseController {
     
     
     private let vm = MainViewModel()
+    var cities = [String]()
     var data = [WeatherData]()
     var reloadedData = [WeatherViewModelData]()
     
@@ -93,7 +94,7 @@ class MainViewController: BaseController {
         tableView.delegate = self
         tableView.dataSource = self
         tableView.separatorStyle = .none
-        tableView.rowHeight = 150
+        tableView.rowHeight = 120
         tableView.register(cellType: WeatherListTableViewCell.self)
     }
     
@@ -122,10 +123,10 @@ class MainViewController: BaseController {
 
 extension MainViewController: SearchPlacesViewProtocol{
     func didSelectRegion(locationName: String, lat: Double, lng: Double, streetName: String) {
-        var cities = [String]()
-        cities.append(locationName)
         
-        var citiesName = cities.joined(separator: ",")
+        cities.append(locationName)
+        print(cities)
+        let citiesName = cities.joined(separator: ",")
         cityNameLabel.text = citiesName
         Task {
             await vm.getWeatherData(lat: lat, lng: lng)

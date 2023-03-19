@@ -12,7 +12,7 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MainViewController" customModule="AmwajTask" customModuleProvider="target">
             <connections>
                 <outlet property="backgroundImageView" destination="t3O-Fl-b8l" id="b5S-Tx-i00"/>
-                <outlet property="cityNameLabel" destination="Xm4-fR-Lh3" id="tNj-a9-828"/>
+                <outlet property="cityNameLabel" destination="YKP-x1-8zL" id="aah-xD-aqD"/>
                 <outlet property="searchView" destination="GbC-AD-Bxt" id="byg-4D-cQZ"/>
                 <outlet property="tableView" destination="lsA-q8-krk" id="d6l-P3-3ya"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
@@ -71,6 +71,12 @@
                                         </userDefinedRuntimeAttribute>
                                     </userDefinedRuntimeAttributes>
                                 </view>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YKP-x1-8zL">
+                                    <rect key="frame" x="20" y="165" width="374" height="0.0"/>
+                                    <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="18"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
                                 <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="lsA-q8-krk">
                                     <rect key="frame" x="20" y="177" width="374" height="539"/>
                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -104,17 +110,20 @@
                             </subviews>
                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <constraints>
+                                <constraint firstItem="YKP-x1-8zL" firstAttribute="leading" secondItem="GbC-AD-Bxt" secondAttribute="leading" id="0xd-KX-02r"/>
                                 <constraint firstAttribute="bottom" secondItem="lsA-q8-krk" secondAttribute="bottom" constant="20" id="289-jn-y8q"/>
                                 <constraint firstItem="GbC-AD-Bxt" firstAttribute="top" secondItem="H9J-7k-iDU" secondAttribute="bottom" constant="8" id="AJO-7c-eIH"/>
                                 <constraint firstItem="lsA-q8-krk" firstAttribute="leading" secondItem="GbC-AD-Bxt" secondAttribute="leading" id="TON-82-2wb"/>
+                                <constraint firstItem="lsA-q8-krk" firstAttribute="top" secondItem="YKP-x1-8zL" secondAttribute="bottom" constant="12" id="W9p-VM-g4L"/>
                                 <constraint firstAttribute="trailing" secondItem="GbC-AD-Bxt" secondAttribute="trailing" constant="20" id="WPq-QK-8RZ"/>
-                                <constraint firstItem="lsA-q8-krk" firstAttribute="top" secondItem="GbC-AD-Bxt" secondAttribute="bottom" constant="20" id="cWl-W6-UQc"/>
                                 <constraint firstItem="GbC-AD-Bxt" firstAttribute="leading" secondItem="iu6-7c-gCl" secondAttribute="leading" constant="20" id="i0x-k5-N9o"/>
                                 <constraint firstItem="H9J-7k-iDU" firstAttribute="top" secondItem="iu6-7c-gCl" secondAttribute="top" constant="70" id="k0p-cU-uLN"/>
                                 <constraint firstAttribute="trailing" secondItem="nKy-Hv-hgW" secondAttribute="trailing" constant="20" symbolic="YES" id="kDm-Qy-nyZ"/>
                                 <constraint firstItem="nKy-Hv-hgW" firstAttribute="top" secondItem="iu6-7c-gCl" secondAttribute="top" constant="50" id="lRR-Ch-9Ue"/>
+                                <constraint firstItem="YKP-x1-8zL" firstAttribute="top" secondItem="GbC-AD-Bxt" secondAttribute="bottom" constant="8" id="pBR-XL-a3X"/>
                                 <constraint firstItem="H9J-7k-iDU" firstAttribute="leading" secondItem="iu6-7c-gCl" secondAttribute="leading" constant="24" id="pwW-p8-DBF"/>
                                 <constraint firstItem="lsA-q8-krk" firstAttribute="trailing" secondItem="GbC-AD-Bxt" secondAttribute="trailing" id="sBn-Cx-3US"/>
+                                <constraint firstItem="YKP-x1-8zL" firstAttribute="trailing" secondItem="GbC-AD-Bxt" secondAttribute="trailing" id="vae-17-YLE"/>
                             </constraints>
                         </view>
                     </subviews>
