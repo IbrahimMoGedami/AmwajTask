@@ -103,7 +103,7 @@ class MainViewController: BaseController {
             showAlert(with: "Cities Count Should Be Between 3 OR 7", title: .warning)
         }else{
             if reloadedData.count < 3 {
-                showAlert(with: "Cities Count Should Be More Than 3 To Displayed", title: .warning)
+                showAlert(with: "Cities Count Should Be More Than 3 To Be Displayed", title: .warning)
                 let vc = SearchViewController(delegate: self)
                 push(vc)
             }else{

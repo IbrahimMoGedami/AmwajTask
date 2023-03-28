@@ -20,10 +20,10 @@ class WeatherDetailsViewController: BaseController {
     @IBOutlet weak var collectionView: UICollectionView!
     @IBOutlet weak var backgroundImageView: UIImageView!
     
-    var vm = WeatherDetailsViewModel()
-    var lat: Double
-    var lon: Double
-    var dataState: CurrentOrSelectedData
+    private var vm = WeatherDetailsViewModel()
+    private var lat: Double
+    private var lon: Double
+    private var dataState: CurrentOrSelectedData
     
     private lazy var locationMaster = LocationMaster(delegate: self)
     private var currentLocation: CLLocation?
@@ -92,7 +92,7 @@ class WeatherDetailsViewController: BaseController {
             startLoading()
         case .success(let value):
             self.dailyWeather = value
-            vm.fetchedData(weatherList: value.list ?? [])
+            vm.fetchedData(weatherList: value.list.unwrapped(or: []))
             setData(value)
             collectionView.reloadData()
             

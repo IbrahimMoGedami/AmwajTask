@@ -30,6 +30,7 @@ enum NetworkState<R: Codable> {
     }
     
     init(_ response: R?) {
+        
         if let response {
             self = .success(response)
         } else {
